@@ -1,4 +1,11 @@
-on: [push]
+on:
+
+  workflow_call:
+
+  push:
+
+  workflow_dispatch:
+
 
 jobs:
   hello_world_job:
