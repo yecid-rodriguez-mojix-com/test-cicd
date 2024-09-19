@@ -1,3 +1,5 @@
+name: Test workflow
+run-name: Test workflow by ${{ github.actor }}
 on:
 
   workflow_call:
