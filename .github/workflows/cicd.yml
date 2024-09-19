@@ -16,7 +16,7 @@ jobs:
     steps:
       - name: Hello world action step xy
         id: hello
-        uses: yecid-rodriguez-mojix-com/redischeck@master
+        uses: yecid-rodriguez-mojix-com/redischeck@v2
         with:
           who-to-greet: 'Master Dev'
       # Use the output from the `hello` step
