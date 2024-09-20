@@ -18,7 +18,7 @@ jobs:
         id: hello
         uses: yecid-rodriguez-mojix-com/redischeck@v2
         with:
-          who-to-greet: 'Master Dev'
+          who-to-greet: 'Master Dev CI/CD'
       # Use the output from the `hello` step
       - name: Get the output time
         run: echo "The time was ${{ steps.hello.outputs.time }}"
